@@ -1,0 +1,44 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #031b2d;
+}
+
+.title {
+  font-size: 2.9rem;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.slider {
+  overflow: hidden;
+  min-width: 330px;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.slider--inner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 400px;
+  transition: all 0.9s ease-in;
+  align-items: center;
+}
+
+.slider--inner img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
